@@ -1,0 +1,230 @@
+.elementor-10 .elementor-element.elementor-element-ed695f4>.elementor-container {
+    min-height: 400px;
+}
+
+.elementor-10 .elementor-element.elementor-element-ed695f4:not(.elementor-motion-effects-element-type-background),
+.elementor-10 .elementor-element.elementor-element-ed695f4>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-image: url("https://jccleaningprosny.com/wp-content/uploads/2024/01/OJO4YQ0.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.elementor-10 .elementor-element.elementor-element-ed695f4>.elementor-background-overlay {
+    background-color: #002247;
+    opacity: 0.89;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-10 .elementor-element.elementor-element-ed695f4 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-10 .elementor-element.elementor-element-70d557d .elementskit-section-title-wraper .elementskit-section-title {
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.elementor-10 .elementor-element.elementor-element-70d557d .elementskit-section-title-wraper .elementskit-section-title>span {
+    color: #000000;
+}
+
+.elementor-10 .elementor-element.elementor-element-70d557d .elementskit-section-title-wraper .elementskit-section-title:hover>span {
+    color: #000000;
+}
+
+.elementor-10 .elementor-element.elementor-element-70d557d .elementskit-section-title-wraper .elementskit-section-subtitle {
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.elementor-10 .elementor-element.elementor-element-ea5f33d .elementor-button .elementor-align-icon-right {
+    margin-left: 0px;
+}
+
+.elementor-10 .elementor-element.elementor-element-ea5f33d .elementor-button .elementor-align-icon-left {
+    margin-right: 0px;
+}
+
+.elementor-10 .elementor-element.elementor-element-ea5f33d .elementor-button {
+    font-family: "Helvetica", Sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: var( --e-global-color-b338d3e);
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px 40px 20px 40px;
+}
+
+.elementor-10 .elementor-element.elementor-element-ea5f33d .elementor-button:hover,
+.elementor-10 .elementor-element.elementor-element-ea5f33d .elementor-button:focus {
+    color: var( --e-global-color-a13bf13);
+    background-color: var( --e-global-color-96fc3b9);
+}
+
+.elementor-10 .elementor-element.elementor-element-ea5f33d .elementor-button:hover svg,
+.elementor-10 .elementor-element.elementor-element-ea5f33d .elementor-button:focus svg {
+    fill: var( --e-global-color-a13bf13);
+}
+
+.elementor-10 .elementor-element.elementor-element-ea5f33d>.elementor-widget-container {
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-10 .elementor-element.elementor-element-6d265dd>.elementor-container {
+    max-width: 1300px;
+}
+
+.elementor-10 .elementor-element.elementor-element-6d265dd {
+    margin-top: 7%;
+    margin-bottom: 0%;
+}
+
+.elementor-10 .elementor-element.elementor-element-dd05236 .elementskit-section-title-wraper .elementskit-section-title {
+    color: #000000;
+    margin: -24px 0px 18px 70px;
+    font-family: "Biryani", Sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 25px;
+}
+
+.elementor-10 .elementor-element.elementor-element-dd05236 .elementskit-section-title-wraper .elementskit-section-title>span {
+    color: var( --e-global-color-6c45397);
+}
+
+.elementor-10 .elementor-element.elementor-element-dd05236 .elementskit-section-title-wraper .elementskit-section-title:hover>span {
+    color: var( --e-global-color-b338d3e);
+}
+
+.elementor-10 .elementor-element.elementor-element-dd05236 .elementskit-section-title-wraper .elementskit-section-title span:last-child,
+.elementor-10 .elementor-element.elementor-element-dd05236 .elementskit-section-title-wraper .elementskit-section-title>span {
+    font-family: "Lato", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.elementor-10 .elementor-element.elementor-element-dd05236 .elementskit-section-title-wraper .elementskit-section-subtitle {
+    color: var( --e-global-color-a13bf13);
+    font-family: "Lato", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px 0px 0px 071px;
+}
+
+.elementor-10 .elementor-element.elementor-element-dd05236 .elementskit-section-title-wraper .elementskit-border-divider {
+    width: 45px;
+    background: var( --e-global-color-b338d3e);
+}
+
+.elementor-10 .elementor-element.elementor-element-dd05236 .elementskit-section-title-wraper .elementskit-border-divider.elementskit-style-long {
+    width: 45px;
+    height: 3px;
+    color: var( --e-global-color-b338d3e);
+}
+
+.elementor-10 .elementor-element.elementor-element-dd05236 .elementskit-section-title-wraper .elementskit-border-star {
+    width: 45px;
+    height: 3px;
+    color: var( --e-global-color-b338d3e);
+}
+
+.elementor-10 .elementor-element.elementor-element-dd05236 .elementskit-section-title-wraper .elementskit-border-divider,
+.elementor-10 .elementor-element.elementor-element-dd05236 .elementskit-border-divider::before {
+    height: 3px;
+}
+
+.elementor-10 .elementor-element.elementor-element-dd05236 .elementskit-section-title-wraper .elementskit-border-divider:before {
+    background-color: var( --e-global-color-b338d3e);
+    color: var( --e-global-color-b338d3e);
+}
+
+.elementor-10 .elementor-element.elementor-element-dd05236 .elementskit-section-title-wraper .elementskit-border-star:after {
+    background-color: var( --e-global-color-b338d3e);
+}
+
+.elementor-10 .elementor-element.elementor-element-7fd16d5>.elementor-container {
+    max-width: 1300px;
+}
+
+.elementor-10 .elementor-element.elementor-element-7fd16d5 {
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+
+.elementor-10 .elementor-element.elementor-element-a6945d8 {
+    --image-border-color: var( --e-global-color-b338d3e);
+    --image-border-width: 3px;
+    --image-border-radius: 13px;
+    --image-transition-duration: 800ms;
+    --overlay-transition-duration: 800ms;
+    --content-text-align: center;
+    --content-padding: 20px;
+    --content-transition-duration: 800ms;
+    --content-transition-delay: 800ms;
+}
+
+.elementor-10 .elementor-element.elementor-element-a6945d8 .e-gallery-item:hover .elementor-gallery-item__overlay,
+.elementor-10 .elementor-element.elementor-element-a6945d8 .e-gallery-item:focus .elementor-gallery-item__overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media(max-width:1024px) {
+    .elementor-10 .elementor-element.elementor-element-ea5f33d .elementor-button {
+        font-size: 14px;
+        letter-spacing: 1.7px;
+        padding: 12px 30px 12px 30px;
+    }
+    .elementor-10 .elementor-element.elementor-element-ea5f33d>.elementor-widget-container {
+        padding: 0px 0px 0px 0px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-10 .elementor-element.elementor-element-ed695f4>.elementor-container {
+        min-height: 370px;
+    }
+    .elementor-10 .elementor-element.elementor-element-70d557d .elementskit-section-title-wraper .elementskit-section-title {
+        font-size: 40px;
+    }
+    .elementor-10 .elementor-element.elementor-element-ea5f33d .elementor-button {
+        font-size: 20px;
+        padding: 25px 20px 25px 20px;
+    }
+    .elementor-10 .elementor-element.elementor-element-ea5f33d>.elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+    .elementor-10 .elementor-element.elementor-element-ea5f33d {
+        width: 100%;
+        max-width: 100%;
+    }
+    .elementor-10 .elementor-element.elementor-element-dd05236 .elementskit-section-title-wraper .elementskit-section-title {
+        margin: -22px 0px 18px 60px;
+        font-size: 25px;
+    }
+    .elementor-10 .elementor-element.elementor-element-dd05236 .elementskit-section-title-wraper .elementskit-section-title span:last-child,
+    .elementor-10 .elementor-element.elementor-element-dd05236 .elementskit-section-title-wraper .elementskit-section-title>span {
+        font-size: 25px;
+    }
+    .elementor-10 .elementor-element.elementor-element-dd05236 .elementskit-section-title-wraper .elementskit-section-subtitle {
+        margin: 0px 0px 0px 60px;
+    }
+    .elementor-10 .elementor-element.elementor-element-dd05236 .elementskit-section-title-wraper .elementskit-border-divider {
+        width: 35px;
+    }
+    .elementor-10 .elementor-element.elementor-element-dd05236 .elementskit-section-title-wraper .elementskit-border-divider.elementskit-style-long {
+        width: 35px;
+    }
+    .elementor-10 .elementor-element.elementor-element-dd05236 .elementskit-section-title-wraper .elementskit-border-star {
+        width: 35px;
+    }
+    .elementor-10 .elementor-element.elementor-element-dd05236>.elementor-widget-container {
+        margin: 5% 0% 0% 0%;
+    }
+}
