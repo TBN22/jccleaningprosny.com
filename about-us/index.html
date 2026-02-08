@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Contact us &#8211; Pressure Wash NY</title>
+    <title>About Us - PressureWash NY</title>
     <meta name='robots' content='max-image-preview:large' />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="alternate" type="application/rss+xml" title="Pressure Wash NY &raquo; Feed" href="/feed/" />
@@ -1074,18 +1074,19 @@
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-21 nav-item elementskit-mobile-builder-content"
                                                     data-vertical-menu=750px><a href="/"
                                                         class="ekit-menu-nav-link">Home</a></li>
-                                                <li
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page nav-item elementskit-mobile-builder-content">
-                                                    <a href="/about-us/" class="ekit-menu-nav-link">About Us</a></li>
+                                                <li id="menu-item-about"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item current_page_item nav-item elementskit-mobile-builder-content active">
+                                                    <a href="/about-us/" class="ekit-menu-nav-link active">About Us</a>
+                                                </li>
                                                 <!-- <li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="/our-services/" class="ekit-menu-nav-link">Our Services</a></li> -->
                                                 <li id="menu-item-20"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20 nav-item elementskit-mobile-builder-content"
                                                     data-vertical-menu=750px><a href="/gallery/"
                                                         class="ekit-menu-nav-link">Gallery</a></li>
                                                 <li id="menu-item-19"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-14 current_page_item menu-item-19 nav-item elementskit-mobile-builder-content active"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-14 current_page_item menu-item-19 nav-item elementskit-mobile-builder-content"
                                                     data-vertical-menu=750px><a href="/contact-us/"
-                                                        class="ekit-menu-nav-link active">Contact us</a></li>
+                                                        class="ekit-menu-nav-link">Contact us</a></li>
                                             </ul>
                                             <div class="elementskit-nav-identity-panel">
                                                 <div class="elementskit-site-title">
@@ -1274,966 +1275,243 @@
     </header>
 
 
+
     <div class="site grid-container container hfeed" id="page">
         <div class="site-content" id="content">
-            <div data-elementor-type="wp-page" data-elementor-id="14" class="elementor elementor-14"
+            <div data-elementor-type="wp-page" data-elementor-id="about-us-page" class="elementor"
                 data-elementor-post-type="page">
-                <section
-                    class="elementor-section elementor-top-section elementor-element elementor-element-1b4f9b5 elementor-section-full_width elementor-section-height-min-height elementor-section-stretched elementor-section-height-default elementor-section-items-middle"
-                    data-id="1b4f9b5" data-element_type="section"
-                    data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-                    <div class="elementor-background-overlay"></div>
-                    <div class="elementor-container elementor-column-gap-no">
-                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cb14118"
-                            data-id="cb14118" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-f2b2024 elementor-widget elementor-widget-elementskit-heading"
-                                    data-id="f2b2024" data-element_type="widget"
-                                    data-widget_type="elementskit-heading.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="ekit-wid-con">
-                                            <div
-                                                class="ekit-heading elementskit-section-title-wraper text_center   ekit_heading_tablet-   ekit_heading_mobile-">
-                                                <h2 class="ekit-heading--title elementskit-section-title "
-                                                    style="color: #5aaf4c;">Contact us</h2>
-                                                <h3 class="ekit-heading--subtitle elementskit-section-subtitle  ">
-                                                    Connect with Us for a Better Tomorrow
-                                                </h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-7d08848 elementor-align-center elementor-mobile-align-center elementor-widget-mobile__width-inherit elementor-widget elementor-widget-button"
-                                    data-id="7d08848" data-element_type="widget" data-widget_type="button.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="elementor-button-wrapper">
-                                            <a class="elementor-button elementor-button-link elementor-size-md elementor-animation-grow"
-                                                href="/contact-us/">
-                                                <span class="elementor-button-content-wrapper">
-                                                    <span class="elementor-button-text">GET A FREE QUOTE</span>
-                                                </span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
+
+                <!-- Custom About Us Styles -->
+                <style>
+                    .about-hero {
+                        position: relative;
+                        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/gallery/about-hero.png');
+                        background-size: cover;
+                        background-position: center;
+                        height: 450px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        text-align: center;
+                        color: #fff;
+                        margin-bottom: 60px;
+                    }
+
+                    .about-hero h1 {
+                        font-family: 'Poppins', sans-serif;
+                        font-size: 3.5rem;
+                        font-weight: 700;
+                        margin-bottom: 15px;
+                        color: #5aaf4c;
+                        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+                    }
+
+                    .about-hero p {
+                        font-size: 1.5rem;
+                        font-weight: 300;
+                        max-width: 800px;
+                    }
+
+                    .section-padding {
+                        padding: 80px 0;
+                    }
+
+                    .container-custom {
+                        max-width: 1200px;
+                        margin: 0 auto;
+                        padding: 0 20px;
+                    }
+
+                    .intro-grid {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        gap: 50px;
+                        align-items: center;
+                    }
+
+                    .intro-content h2 {
+                        color: #5aaf4c;
+                        font-size: 2.5rem;
+                        margin-bottom: 25px;
+                        position: relative;
+                    }
+
+                    .intro-content h2::after {
+                        content: '';
+                        position: absolute;
+                        bottom: -10px;
+                        left: 0;
+                        width: 60px;
+                        height: 4px;
+                        background: #1e73be;
+                    }
+
+                    .intro-content p {
+                        line-height: 1.8;
+                        color: #444;
+                        margin-bottom: 20px;
+                    }
+
+                    .intro-image img {
+                        width: 100%;
+                        border-radius: 15px;
+                        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+                    }
+
+                    .values-section {
+                        background: #f9f9f9;
+                        border-radius: 30px;
+                        margin: 40px 0;
+                    }
+
+                    .values-grid {
+                        display: grid;
+                        grid-template-columns: repeat(3, 1fr);
+                        gap: 30px;
+                        text-align: center;
+                    }
+
+                    .value-card {
+                        background: #fff;
+                        padding: 40px;
+                        border-radius: 20px;
+                        transition: transform 0.3s ease;
+                        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+                    }
+
+                    .value-card:hover {
+                        transform: translateY(-10px);
+                    }
+
+                    .value-card i {
+                        font-size: 3rem;
+                        color: #5aaf4c;
+                        margin-bottom: 20px;
+                        display: block;
+                    }
+
+                    .value-card h3 {
+                        margin-bottom: 15px;
+                        color: #333;
+                    }
+
+                    .cta-section {
+                        background: #1e73be;
+                        color: #fff;
+                        padding: 60px 0;
+                        text-align: center;
+                        border-radius: 20px;
+                        margin-top: 60px;
+                    }
+
+                    .cta-section h2 {
+                        color: #fff;
+                        font-size: 2.5rem;
+                        margin-bottom: 20px;
+                    }
+
+                    .cta-btn {
+                        display: inline-block;
+                        padding: 15px 40px;
+                        background: #5aaf4c;
+                        color: #fff;
+                        text-decoration: none;
+                        border-radius: 50px;
+                        font-weight: 600;
+                        transition: background 0.3s ease;
+                        margin-top: 20px;
+                    }
+
+                    .cta-btn:hover {
+                        background: #4a9e3d;
+                        color: #fff;
+                    }
+
+                    @media (max-width: 768px) {
+                        .intro-grid {
+                            grid-template-columns: 1fr;
+                        }
+
+                        .values-grid {
+                            grid-template-columns: 1fr;
+                        }
+
+                        .about-hero h1 {
+                            font-size: 2.5rem;
+                        }
+                    }
+                </style>
+
+                <!-- Hero Section -->
+                <div class="about-hero">
+                    <div class="container-custom">
+                        <h1>About PressureWash NY</h1>
+                        <p>Restoring the shine and value of your property with professional precision since 2020.</p>
+                    </div>
+                </div>
+
+                <!-- Intro Section -->
+                <section class="section-padding">
+                    <div class="container-custom">
+                        <div class="intro-grid">
+                            <div class="intro-content">
+                                <h2>Your Local Exterior Cleaning Experts</h2>
+                                <p>At PressureWash NY, we believe that every home and business deserves to look its
+                                    absolute best. Based in Central New York, we've built our reputation on a foundation
+                                    of reliability, exceptional quality, and deep respect for our community's
+                                    properties.</p>
+                                <p>Whether it's a gentle soft wash for your roof, a powerful pressure wash for your
+                                    driveway, or meticulous gutter cleaning, our team uses state-of-the-art equipment
+                                    and eco-friendly solutions to deliver results that don't just clean—they transform.
+                                </p>
+                                <p>Our mission is simple: to provide a "Better Tomorrow" for our clients by protecting
+                                    their most valuable investments today.</p>
+                            </div>
+                            <div class="intro-image">
+                                <img src="/gallery/about-team.png" alt="PressureWash NY Expert in action">
                             </div>
                         </div>
                     </div>
                 </section>
-                <section
-                    class="elementor-section elementor-top-section elementor-element elementor-element-23bfed05 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                    data-id="23bfed05" data-element_type="section"
-                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                    <div class="elementor-background-overlay"></div>
-                    <div class="elementor-container elementor-column-gap-default">
-                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6ba610f1"
-                            data-id="6ba610f1" data-element_type="column"
-                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-c8f2d50 elementor-widget elementor-widget-elementskit-heading"
-                                    data-id="c8f2d50" data-element_type="widget"
-                                    data-widget_type="elementskit-heading.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="ekit-wid-con">
-                                            <div
-                                                class="ekit-heading elementskit-section-title-wraper text_left   ekit_heading_tablet-   ekit_heading_mobile-">
-                                                <div
-                                                    class="ekit_heading_separetor_wraper ekit_heading_elementskit-border-divider elementskit-style-long">
-                                                    <div class="elementskit-border-divider elementskit-style-long">
-                                                    </div>
-                                                </div>
-                                                <h2 class="ekit-heading--title elementskit-section-title ">Contact
-                                                    <span><span>Us</span></span>
-                                                </h2>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <section
-                                    class="elementor-section elementor-inner-section elementor-element elementor-element-1a83ee5e elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                    data-id="1a83ee5e" data-element_type="section">
-                                    <div class="elementor-container elementor-column-gap-default">
-                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1477aade"
-                                            data-id="1477aade" data-element_type="column"
-                                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-5e50ce77 elementor-button-align-stretch elementor-widget elementor-widget-form"
-                                                    data-id="5e50ce77" data-element_type="widget"
-                                                    data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}"
-                                                    data-widget_type="form.default">
-                                                    <div class="elementor-widget-container">
-                                                        <style>
-                                                            /*! elementor-pro - v3.18.0 - 17-01-2024 */
 
-                                                            .elementor-button.elementor-hidden,
-                                                            .elementor-hidden {
-                                                                display: none
-                                                            }
-
-                                                            .e-form__step {
-                                                                width: 100%
-                                                            }
-
-                                                            .e-form__step:not(.elementor-hidden) {
-                                                                display: flex;
-                                                                flex-wrap: wrap
-                                                            }
-
-                                                            .e-form__buttons {
-                                                                flex-wrap: wrap
-                                                            }
-
-                                                            .e-form__buttons,
-                                                            .e-form__buttons__wrapper {
-                                                                display: flex
-                                                            }
-
-                                                            .e-form__indicators {
-                                                                display: flex;
-                                                                justify-content: space-between;
-                                                                align-items: center;
-                                                                flex-wrap: nowrap;
-                                                                font-size: 13px;
-                                                                margin-bottom: var(--e-form-steps-indicators-spacing)
-                                                            }
-
-                                                            .e-form__indicators__indicator {
-                                                                display: flex;
-                                                                flex-direction: column;
-                                                                align-items: center;
-                                                                justify-content: center;
-                                                                flex-basis: 0;
-                                                                padding: 0 var(--e-form-steps-divider-gap)
-                                                            }
-
-                                                            .e-form__indicators__indicator__progress {
-                                                                width: 100%;
-                                                                position: relative;
-                                                                background-color: var(--e-form-steps-indicator-progress-background-color);
-                                                                border-radius: var(--e-form-steps-indicator-progress-border-radius);
-                                                                overflow: hidden
-                                                            }
-
-                                                            .e-form__indicators__indicator__progress__meter {
-                                                                width: var(--e-form-steps-indicator-progress-meter-width, 0);
-                                                                height: var(--e-form-steps-indicator-progress-height);
-                                                                line-height: var(--e-form-steps-indicator-progress-height);
-                                                                padding-right: 15px;
-                                                                border-radius: var(--e-form-steps-indicator-progress-border-radius);
-                                                                background-color: var(--e-form-steps-indicator-progress-color);
-                                                                color: var(--e-form-steps-indicator-progress-meter-color);
-                                                                text-align: right;
-                                                                transition: width .1s linear
-                                                            }
-
-                                                            .e-form__indicators__indicator:first-child {
-                                                                padding-left: 0
-                                                            }
-
-                                                            .e-form__indicators__indicator:last-child {
-                                                                padding-right: 0
-                                                            }
-
-                                                            .e-form__indicators__indicator--state-inactive {
-                                                                color: var(--e-form-steps-indicator-inactive-primary-color, #c2cbd2)
-                                                            }
-
-                                                            .e-form__indicators__indicator--state-inactive [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none) {
-                                                                background-color: var(--e-form-steps-indicator-inactive-secondary-color, #fff)
-                                                            }
-
-                                                            .e-form__indicators__indicator--state-inactive object,
-                                                            .e-form__indicators__indicator--state-inactive svg {
-                                                                fill: var(--e-form-steps-indicator-inactive-primary-color, #c2cbd2)
-                                                            }
-
-                                                            .e-form__indicators__indicator--state-active {
-                                                                color: var(--e-form-steps-indicator-active-primary-color, #39b54a);
-                                                                border-color: var(--e-form-steps-indicator-active-secondary-color, #fff)
-                                                            }
-
-                                                            .e-form__indicators__indicator--state-active [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none) {
-                                                                background-color: var(--e-form-steps-indicator-active-secondary-color, #fff)
-                                                            }
-
-                                                            .e-form__indicators__indicator--state-active object,
-                                                            .e-form__indicators__indicator--state-active svg {
-                                                                fill: var(--e-form-steps-indicator-active-primary-color, #39b54a)
-                                                            }
-
-                                                            .e-form__indicators__indicator--state-completed {
-                                                                color: var(--e-form-steps-indicator-completed-secondary-color, #fff)
-                                                            }
-
-                                                            .e-form__indicators__indicator--state-completed [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none) {
-                                                                background-color: var(--e-form-steps-indicator-completed-primary-color, #39b54a)
-                                                            }
-
-                                                            .e-form__indicators__indicator--state-completed .e-form__indicators__indicator__label {
-                                                                color: var(--e-form-steps-indicator-completed-primary-color, #39b54a)
-                                                            }
-
-                                                            .e-form__indicators__indicator--state-completed .e-form__indicators__indicator--shape-none {
-                                                                color: var(--e-form-steps-indicator-completed-primary-color, #39b54a);
-                                                                background-color: initial
-                                                            }
-
-                                                            .e-form__indicators__indicator--state-completed object,
-                                                            .e-form__indicators__indicator--state-completed svg {
-                                                                fill: var(--e-form-steps-indicator-completed-secondary-color, #fff)
-                                                            }
-
-                                                            .e-form__indicators__indicator__icon {
-                                                                width: var(--e-form-steps-indicator-padding, 30px);
-                                                                height: var(--e-form-steps-indicator-padding, 30px);
-                                                                font-size: var(--e-form-steps-indicator-icon-size);
-                                                                border-width: 1px;
-                                                                border-style: solid;
-                                                                display: flex;
-                                                                justify-content: center;
-                                                                align-items: center;
-                                                                overflow: hidden;
-                                                                margin-bottom: 10px
-                                                            }
-
-                                                            .e-form__indicators__indicator__icon img,
-                                                            .e-form__indicators__indicator__icon object,
-                                                            .e-form__indicators__indicator__icon svg {
-                                                                width: var(--e-form-steps-indicator-icon-size);
-                                                                height: auto
-                                                            }
-
-                                                            .e-form__indicators__indicator__icon .e-font-icon-svg {
-                                                                height: 1em
-                                                            }
-
-                                                            .e-form__indicators__indicator__number {
-                                                                width: var(--e-form-steps-indicator-padding, 30px);
-                                                                height: var(--e-form-steps-indicator-padding, 30px);
-                                                                border-width: 1px;
-                                                                border-style: solid;
-                                                                display: flex;
-                                                                justify-content: center;
-                                                                align-items: center;
-                                                                margin-bottom: 10px
-                                                            }
-
-                                                            .e-form__indicators__indicator--shape-circle {
-                                                                border-radius: 50%
-                                                            }
-
-                                                            .e-form__indicators__indicator--shape-square {
-                                                                border-radius: 0
-                                                            }
-
-                                                            .e-form__indicators__indicator--shape-rounded {
-                                                                border-radius: 5px
-                                                            }
-
-                                                            .e-form__indicators__indicator--shape-none {
-                                                                border: 0
-                                                            }
-
-                                                            .e-form__indicators__indicator__label {
-                                                                text-align: center
-                                                            }
-
-                                                            .e-form__indicators__indicator__separator {
-                                                                width: 100%;
-                                                                height: var(--e-form-steps-divider-width);
-                                                                background-color: #babfc5
-                                                            }
-
-                                                            .e-form__indicators--type-icon,
-                                                            .e-form__indicators--type-icon_text,
-                                                            .e-form__indicators--type-number,
-                                                            .e-form__indicators--type-number_text {
-                                                                align-items: flex-start
-                                                            }
-
-                                                            .e-form__indicators--type-icon .e-form__indicators__indicator__separator,
-                                                            .e-form__indicators--type-icon_text .e-form__indicators__indicator__separator,
-                                                            .e-form__indicators--type-number .e-form__indicators__indicator__separator,
-                                                            .e-form__indicators--type-number_text .e-form__indicators__indicator__separator {
-                                                                margin-top: calc(var(--e-form-steps-indicator-padding, 30px) / 2 - var(--e-form-steps-divider-width, 1px) / 2)
-                                                            }
-
-                                                            .elementor-field-type-hidden {
-                                                                display: none
-                                                            }
-
-                                                            .elementor-field-type-html {
-                                                                display: inline-block
-                                                            }
-
-                                                            .elementor-field-type-tel input {
-                                                                direction: inherit
-                                                            }
-
-                                                            .elementor-login .elementor-lost-password,
-                                                            .elementor-login .elementor-remember-me {
-                                                                font-size: .85em
-                                                            }
-
-                                                            .elementor-field-type-recaptcha_v3 .elementor-field-label {
-                                                                display: none
-                                                            }
-
-                                                            .elementor-field-type-recaptcha_v3 .grecaptcha-badge {
-                                                                z-index: 1
-                                                            }
-
-                                                            .elementor-button .elementor-form-spinner {
-                                                                order: 3
-                                                            }
-
-                                                            .elementor-form .elementor-button>span {
-                                                                display: flex;
-                                                                justify-content: center;
-                                                                align-items: center
-                                                            }
-
-                                                            .elementor-form .elementor-button .elementor-button-text {
-                                                                white-space: normal;
-                                                                flex-grow: 0
-                                                            }
-
-                                                            .elementor-form .elementor-button svg {
-                                                                height: auto
-                                                            }
-
-                                                            .elementor-form .elementor-button .e-font-icon-svg {
-                                                                height: 1em
-                                                            }
-
-                                                            .elementor-select-wrapper .select-caret-down-wrapper {
-                                                                position: absolute;
-                                                                top: 50%;
-                                                                transform: translateY(-50%);
-                                                                inset-inline-end: 10px;
-                                                                pointer-events: none;
-                                                                font-size: 11px
-                                                            }
-
-                                                            .elementor-select-wrapper .select-caret-down-wrapper svg {
-                                                                display: unset;
-                                                                width: 1em;
-                                                                aspect-ratio: unset;
-                                                                fill: currentColor
-                                                            }
-
-                                                            .elementor-select-wrapper .select-caret-down-wrapper i {
-                                                                font-size: 19px;
-                                                                line-height: 2
-                                                            }
-
-                                                            .elementor-select-wrapper.remove-before:before {
-                                                                content: "" !important
-                                                            }
-                                                        </style>
-                                                        <form class="elementor-form" method="post"
-                                                            action="/.netlify/functions/submitForm">
-                                                            <input type="hidden" name="post_id" value="14" />
-                                                            <input type="hidden" name="form_id" value="5e50ce77" />
-                                                            <input type="hidden" name="referer_title"
-                                                                value="Contact us" />
-                                                            <input type="hidden" name="queried_id" value="14" />
-
-                                                            <div
-                                                                class="elementor-form-fields-wrapper elementor-labels-above">
-                                                                <div
-                                                                    class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-50 elementor-field-required">
-                                                                    <input size="1" type="text" name="form_fields[name]"
-                                                                        id="form-field-name"
-                                                                        class="elementor-field elementor-size-sm  elementor-field-textual"
-                                                                        placeholder="Your First Name"
-                                                                        required="required" aria-required="true">
-                                                                </div>
-                                                                <div
-                                                                    class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_f13eef2 elementor-col-50">
-                                                                    <input size="1" type="text"
-                                                                        name="form_fields[field_f13eef2]"
-                                                                        id="form-field-field_f13eef2"
-                                                                        class="elementor-field elementor-size-sm  elementor-field-textual"
-                                                                        placeholder="Your Last Name">
-                                                                </div>
-                                                                <div
-                                                                    class="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-field_2ff050b elementor-col-50 elementor-field-required">
-                                                                    <input size="1" type="tel"
-                                                                        name="form_fields[field_2ff050b]"
-                                                                        id="form-field-field_2ff050b"
-                                                                        class="elementor-field elementor-size-sm  elementor-field-textual"
-                                                                        placeholder="Phone Number" required="required"
-                                                                        aria-required="true"
-                                                                        pattern="[0-9()#&amp;+*-=.]+"
-                                                                        title="Only numbers and phone characters (#, -, *, etc) are accepted.">
-                                                                </div>
-                                                                <div
-                                                                    class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-50 elementor-field-required">
-                                                                    <input size="1" type="email"
-                                                                        name="form_fields[email]" id="form-field-email"
-                                                                        class="elementor-field elementor-size-sm  elementor-field-textual"
-                                                                        placeholder="Your Email" required="required"
-                                                                        aria-required="true">
-                                                                </div>
-                                                                <div
-                                                                    class="elementor-field-type-checkbox elementor-field-group elementor-column elementor-field-group-field_ff5fb4e elementor-col-100">
-                                                                    <label for="form-field-field_ff5fb4e"
-                                                                        class="elementor-field-label"> Service Selection
-                                                                    </label>
-                                                                    <div
-                                                                        class="elementor-field-subgroup  elementor-subgroup-inline">
-                                                                        <span class="elementor-field-option">
-                                                                            <input type="checkbox"
-                                                                                value="Exterior Cleaning Services"
-                                                                                id="form-field-field_ff5fb4e-0"
-                                                                                name="form_fields[field_ff5fb4e][]">
-                                                                            <label
-                                                                                for="form-field-field_ff5fb4e-0">Exterior
-                                                                                Cleaning Services</label>
-                                                                        </span>
-                                                                        <span class="elementor-field-option">
-                                                                            <input type="checkbox" value="Roof Washing"
-                                                                                id="form-field-field_ff5fb4e-1"
-                                                                                name="form_fields[field_ff5fb4e][]">
-                                                                            <label for="form-field-field_ff5fb4e-1">Roof
-                                                                                Washing</label>
-                                                                        </span>
-                                                                        <span class="elementor-field-option">
-                                                                            <input type="checkbox"
-                                                                                value="Siding Washing"
-                                                                                id="form-field-field_ff5fb4e-2"
-                                                                                name="form_fields[field_ff5fb4e][]">
-                                                                            <label
-                                                                                for="form-field-field_ff5fb4e-2">Siding
-                                                                                Washing</label>
-                                                                        </span>
-                                                                        <span class="elementor-field-option">
-                                                                            <input type="checkbox"
-                                                                                value="Gutter Cleaning"
-                                                                                id="form-field-field_ff5fb4e-3"
-                                                                                name="form_fields[field_ff5fb4e][]">
-                                                                            <label
-                                                                                for="form-field-field_ff5fb4e-3">Gutter
-                                                                                Cleaning</label>
-                                                                        </span>
-                                                                        <span class="elementor-field-option">
-                                                                            <input type="checkbox"
-                                                                                value="Window Cleaning"
-                                                                                id="form-field-field_ff5fb4e-4"
-                                                                                name="form_fields[field_ff5fb4e][]">
-                                                                            <label
-                                                                                for="form-field-field_ff5fb4e-4">Window
-                                                                                Cleaning</label>
-                                                                        </span>
-                                                                        <span class="elementor-field-option">
-                                                                            <input type="checkbox"
-                                                                                value="Paver Cleaning and Sealing"
-                                                                                id="form-field-field_ff5fb4e-5"
-                                                                                name="form_fields[field_ff5fb4e][]">
-                                                                            <label
-                                                                                for="form-field-field_ff5fb4e-5">Paver
-                                                                                Cleaning and Sealing</label>
-                                                                        </span>
-                                                                        <span class="elementor-field-option">
-                                                                            <input type="checkbox"
-                                                                                value="Concrete Cleaning"
-                                                                                id="form-field-field_ff5fb4e-6"
-                                                                                name="form_fields[field_ff5fb4e][]">
-                                                                            <label
-                                                                                for="form-field-field_ff5fb4e-6">Concrete
-                                                                                Cleaning</label>
-                                                                        </span>
-                                                                        <span class="elementor-field-option">
-                                                                            <input type="checkbox" value="Fence Washing"
-                                                                                id="form-field-field_ff5fb4e-7"
-                                                                                name="form_fields[field_ff5fb4e][]">
-                                                                            <label
-                                                                                for="form-field-field_ff5fb4e-7">Fence
-                                                                                Washing</label>
-                                                                        </span>
-                                                                        <span class="elementor-field-option">
-                                                                            <input type="checkbox" value="Deck Washing"
-                                                                                id="form-field-field_ff5fb4e-8"
-                                                                                name="form_fields[field_ff5fb4e][]">
-                                                                            <label for="form-field-field_ff5fb4e-8">Deck
-                                                                                Washing</label>
-                                                                        </span>
-                                                                        <span class="elementor-field-option">
-                                                                            <input type="checkbox"
-                                                                                value="Awning Washing"
-                                                                                id="form-field-field_ff5fb4e-9"
-                                                                                name="form_fields[field_ff5fb4e][]">
-                                                                            <label
-                                                                                for="form-field-field_ff5fb4e-9">Awning
-                                                                                Washing</label>
-                                                                        </span>
-                                                                        <span class="elementor-field-option">
-                                                                            <input type="checkbox" value="Power Washing"
-                                                                                id="form-field-field_ff5fb4e-10"
-                                                                                name="form_fields[field_ff5fb4e][]">
-                                                                            <label
-                                                                                for="form-field-field_ff5fb4e-10">Power
-                                                                                Washing</label>
-                                                                        </span>
-                                                                        <span class="elementor-field-option">
-                                                                            <input type="checkbox" value="Soft Washing"
-                                                                                id="form-field-field_ff5fb4e-11"
-                                                                                name="form_fields[field_ff5fb4e][]">
-                                                                            <label
-                                                                                for="form-field-field_ff5fb4e-11">Soft
-                                                                                Washing</label>
-                                                                        </span>
-                                                                    </div>
-                                                                </div>
-                                                                <div
-                                                                    class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-message elementor-col-100">
-                                                                    <label for="form-field-message"
-                                                                        class="elementor-field-label"> Your Location
-                                                                    </label>
-                                                                    <input size="1" type="text"
-                                                                        name="form_fields[message]"
-                                                                        id="form-field-message"
-                                                                        class="elementor-field elementor-size-sm  elementor-field-textual"
-                                                                        placeholder="Address">
-                                                                </div>
-                                                                <div
-                                                                    class="elementor-field-type-upload elementor-field-group elementor-column elementor-field-group-field_1b24405 elementor-col-100">
-                                                                    <label for="form-field-field_1b24405"
-                                                                        class="elementor-field-label"> Upload Pictures
-                                                                    </label>
-                                                                    <input type="file"
-                                                                        name="form_fields[field_1b24405][]"
-                                                                        id="form-field-field_1b24405"
-                                                                        class="elementor-field elementor-size-sm  elementor-upload-field"
-                                                                        multiple="multiple" data-maxsize="5"
-                                                                        data-maxsize-message="This file exceeds the maximum allowed size.">
-                                                                </div>
-                                                                <div
-                                                                    class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-field_3d8397d elementor-col-100">
-                                                                    <label for="form-field-field_3d8397d"
-                                                                        class="elementor-field-label"> Message </label>
-                                                                    <textarea
-                                                                        class="elementor-field-textual elementor-field  elementor-size-sm"
-                                                                        name="form_fields[field_3d8397d]"
-                                                                        id="form-field-field_3d8397d"
-                                                                        rows="4"></textarea>
-                                                                </div>
-                                                                <div
-                                                                    class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
-                                                                    <button type="submit"
-                                                                        class="elementor-button elementor-size-sm">
-                                                                        <span>
-                                                                            <span class="elementor-button-icon"></span>
-                                                                            <span class="elementor-button-text">Submit
-                                                                                Your Form</span>
-                                                                        </span>
-                                                                    </button>
-                                                                </div>
-                                                            </div>
-                                                        </form>
-
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6f557b28"
-                                            data-id="6f557b28" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-3928b9ab elementor-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                                    data-id="3928b9ab" data-element_type="widget"
-                                                    data-widget_type="icon-list.default">
-                                                    <div class="elementor-widget-container">
-                                                        <link rel="stylesheet"
-                                                            href="/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css">
-                                                        <ul class="elementor-icon-list-items">
-                                                            <li class="elementor-icon-list-item">
-                                                                <span class="elementor-icon-list-text">Let us know how
-                                                                    we can help you!</span>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-element elementor-element-37a6b48f elementor-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                                    data-id="37a6b48f" data-element_type="widget"
-                                                    data-widget_type="icon-list.default">
-                                                    <div class="elementor-widget-container">
-                                                        <ul class="elementor-icon-list-items">
-                                                            <li class="elementor-icon-list-item">
-                                                                <a href="tel:%206319727868">
-
-                                                                    <span class="elementor-icon-list-icon">
-                                                                        <i aria-hidden="true"
-                                                                            class="fas fa-phone-alt"></i> </span>
-                                                                    <span class="elementor-icon-list-text">(315) 750
-                                                                        5464</span>
-                                                                </a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-element elementor-element-6852220e elementor-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                                    data-id="6852220e" data-element_type="widget"
-                                                    data-widget_type="icon-list.default">
-                                                    <div class="elementor-widget-container">
-                                                        <ul class="elementor-icon-list-items">
-                                                            <li class="elementor-icon-list-item">
-                                                                <a href="mailto:
-evan@pressurewashny.net">
-
-                                                                    <span class="elementor-icon-list-icon">
-                                                                        <i aria-hidden="true"
-                                                                            class="fas fa-envelope-open"></i> </span>
-                                                                    <span class="elementor-icon-list-text">
-                                                                        evan@pressurewashny.net</span>
-                                                                </a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-element elementor-element-7784e1a7 elementor-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                                    data-id="7784e1a7" data-element_type="widget"
-                                                    data-widget_type="icon-list.default">
-                                                    <div class="elementor-widget-container">
-                                                        <ul class="elementor-icon-list-items">
-                                                            <li class="elementor-icon-list-item">
-                                                                <a href="https://www.google.com/maps/place/12+Fayette+Street,+Earlville,+NY+13332,+USA/@42.7413,-75.5405,14z/data=!4m2!3m1!1s0x0:0x0?entry=ttu"
-                                                                    target="_blank">
-
-                                                                    <span class="elementor-icon-list-icon">
-                                                                        <i aria-hidden="true"
-                                                                            class="fas fa-map-marker-alt"></i> </span>
-                                                                    <span class="elementor-icon-list-text">12 Central
-                                                                        New York, New York 13332, United States</span>
-                                                                </a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-element elementor-element-30a637e e-grid-align-left e-grid-align-mobile-center elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons"
-                                                    data-id="30a637e" data-element_type="widget"
-                                                    data-widget_type="social-icons.default">
-                                                    <div class="elementor-widget-container">
-                                                        <style>
-                                                            /*! elementor - v3.19.0 - 07-02-2024 */
-
-                                                            .elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,
-                                                            .elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,
-                                                            .elementor-widget-social-icons.elementor-grid-tablet-0 .elementor-widget-container {
-                                                                line-height: 1;
-                                                                font-size: 0
-                                                            }
-
-                                                            .elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
-                                                                display: inline-grid
-                                                            }
-
-                                                            .elementor-widget-social-icons .elementor-grid {
-                                                                grid-column-gap: var(--grid-column-gap, 5px);
-                                                                grid-row-gap: var(--grid-row-gap, 5px);
-                                                                grid-template-columns: var(--grid-template-columns);
-                                                                justify-content: var(--justify-content, center);
-                                                                justify-items: var(--justify-content, center)
-                                                            }
-
-                                                            .elementor-icon.elementor-social-icon {
-                                                                font-size: var(--icon-size, 25px);
-                                                                line-height: var(--icon-size, 25px);
-                                                                width: calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em));
-                                                                height: calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em))
-                                                            }
-
-                                                            .elementor-social-icon {
-                                                                --e-social-icon-icon-color: #fff;
-                                                                display: inline-flex;
-                                                                background-color: #69727d;
-                                                                align-items: center;
-                                                                justify-content: center;
-                                                                text-align: center;
-                                                                cursor: pointer
-                                                            }
-
-                                                            .elementor-social-icon i {
-                                                                color: var(--e-social-icon-icon-color)
-                                                            }
-
-                                                            .elementor-social-icon svg {
-                                                                fill: var(--e-social-icon-icon-color)
-                                                            }
-
-                                                            .elementor-social-icon:last-child {
-                                                                margin: 0
-                                                            }
-
-                                                            .elementor-social-icon:hover {
-                                                                opacity: .9;
-                                                                color: #fff
-                                                            }
-
-                                                            .elementor-social-icon-android {
-                                                                background-color: #a4c639
-                                                            }
-
-                                                            .elementor-social-icon-apple {
-                                                                background-color: #999
-                                                            }
-
-                                                            .elementor-social-icon-behance {
-                                                                background-color: #1769ff
-                                                            }
-
-                                                            .elementor-social-icon-bitbucket {
-                                                                background-color: #205081
-                                                            }
-
-                                                            .elementor-social-icon-codepen {
-                                                                background-color: #000
-                                                            }
-
-                                                            .elementor-social-icon-delicious {
-                                                                background-color: #39f
-                                                            }
-
-                                                            .elementor-social-icon-deviantart {
-                                                                background-color: #05cc47
-                                                            }
-
-                                                            .elementor-social-icon-digg {
-                                                                background-color: #005be2
-                                                            }
-
-                                                            .elementor-social-icon-dribbble {
-                                                                background-color: #ea4c89
-                                                            }
-
-                                                            .elementor-social-icon-elementor {
-                                                                background-color: #d30c5c
-                                                            }
-
-                                                            .elementor-social-icon-envelope {
-                                                                background-color: #ea4335
-                                                            }
-
-                                                            .elementor-social-icon-facebook,
-                                                            .elementor-social-icon-facebook-f {
-                                                                background-color: #3b5998
-                                                            }
-
-                                                            .elementor-social-icon-flickr {
-                                                                background-color: #0063dc
-                                                            }
-
-                                                            .elementor-social-icon-foursquare {
-                                                                background-color: #2d5be3
-                                                            }
-
-                                                            .elementor-social-icon-free-code-camp,
-                                                            .elementor-social-icon-freecodecamp {
-                                                                background-color: #006400
-                                                            }
-
-                                                            .elementor-social-icon-github {
-                                                                background-color: #333
-                                                            }
-
-                                                            .elementor-social-icon-gitlab {
-                                                                background-color: #e24329
-                                                            }
-
-                                                            .elementor-social-icon-globe {
-                                                                background-color: #69727d
-                                                            }
-
-                                                            .elementor-social-icon-google-plus,
-                                                            .elementor-social-icon-google-plus-g {
-                                                                background-color: #dd4b39
-                                                            }
-
-                                                            .elementor-social-icon-houzz {
-                                                                background-color: #7ac142
-                                                            }
-
-                                                            .elementor-social-icon-instagram {
-                                                                background-color: #262626
-                                                            }
-
-                                                            .elementor-social-icon-jsfiddle {
-                                                                background-color: #487aa2
-                                                            }
-
-                                                            .elementor-social-icon-link {
-                                                                background-color: #818a91
-                                                            }
-
-                                                            .elementor-social-icon-linkedin,
-                                                            .elementor-social-icon-linkedin-in {
-                                                                background-color: #0077b5
-                                                            }
-
-                                                            .elementor-social-icon-medium {
-                                                                background-color: #00ab6b
-                                                            }
-
-                                                            .elementor-social-icon-meetup {
-                                                                background-color: #ec1c40
-                                                            }
-
-                                                            .elementor-social-icon-mixcloud {
-                                                                background-color: #273a4b
-                                                            }
-
-                                                            .elementor-social-icon-odnoklassniki {
-                                                                background-color: #f4731c
-                                                            }
-
-                                                            .elementor-social-icon-pinterest {
-                                                                background-color: #bd081c
-                                                            }
-
-                                                            .elementor-social-icon-product-hunt {
-                                                                background-color: #da552f
-                                                            }
-
-                                                            .elementor-social-icon-reddit {
-                                                                background-color: #ff4500
-                                                            }
-
-                                                            .elementor-social-icon-rss {
-                                                                background-color: #f26522
-                                                            }
-
-                                                            .elementor-social-icon-shopping-cart {
-                                                                background-color: #4caf50
-                                                            }
-
-                                                            .elementor-social-icon-skype {
-                                                                background-color: #00aff0
-                                                            }
-
-                                                            .elementor-social-icon-slideshare {
-                                                                background-color: #0077b5
-                                                            }
-
-                                                            .elementor-social-icon-snapchat {
-                                                                background-color: #fffc00
-                                                            }
-
-                                                            .elementor-social-icon-soundcloud {
-                                                                background-color: #f80
-                                                            }
-
-                                                            .elementor-social-icon-spotify {
-                                                                background-color: #2ebd59
-                                                            }
-
-                                                            .elementor-social-icon-stack-overflow {
-                                                                background-color: #fe7a15
-                                                            }
-
-                                                            .elementor-social-icon-steam {
-                                                                background-color: #00adee
-                                                            }
-
-                                                            .elementor-social-icon-stumbleupon {
-                                                                background-color: #eb4924
-                                                            }
-
-                                                            .elementor-social-icon-telegram {
-                                                                background-color: #2ca5e0
-                                                            }
-
-                                                            .elementor-social-icon-thumb-tack {
-                                                                background-color: #1aa1d8
-                                                            }
-
-                                                            .elementor-social-icon-tripadvisor {
-                                                                background-color: #589442
-                                                            }
-
-                                                            .elementor-social-icon-tumblr {
-                                                                background-color: #35465c
-                                                            }
-
-                                                            .elementor-social-icon-twitch {
-                                                                background-color: #6441a5
-                                                            }
-
-                                                            .elementor-social-icon-twitter {
-                                                                background-color: #1da1f2
-                                                            }
-
-                                                            .elementor-social-icon-viber {
-                                                                background-color: #665cac
-                                                            }
-
-                                                            .elementor-social-icon-vimeo {
-                                                                background-color: #1ab7ea
-                                                            }
-
-                                                            .elementor-social-icon-vk {
-                                                                background-color: #45668e
-                                                            }
-
-                                                            .elementor-social-icon-weibo {
-                                                                background-color: #dd2430
-                                                            }
-
-                                                            .elementor-social-icon-weixin {
-                                                                background-color: #31a918
-                                                            }
-
-                                                            .elementor-social-icon-whatsapp {
-                                                                background-color: #25d366
-                                                            }
-
-                                                            .elementor-social-icon-wordpress {
-                                                                background-color: #21759b
-                                                            }
-
-                                                            .elementor-social-icon-xing {
-                                                                background-color: #026466
-                                                            }
-
-                                                            .elementor-social-icon-yelp {
-                                                                background-color: #af0606
-                                                            }
-
-                                                            .elementor-social-icon-youtube {
-                                                                background-color: #cd201f
-                                                            }
-
-                                                            .elementor-social-icon-500px {
-                                                                background-color: #0099e5
-                                                            }
-
-                                                            .elementor-shape-rounded .elementor-icon.elementor-social-icon {
-                                                                border-radius: 10%
-                                                            }
-
-                                                            .elementor-shape-circle .elementor-icon.elementor-social-icon {
-                                                                border-radius: 50%
-                                                            }
-                                                        </style>
-                                                        <!-- <div class="elementor-social-icons-wrapper elementor-grid">
-                                                            <span class="elementor-grid-item">
-					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-07bc626" href="https://www.facebook.com/jccleaningprosllc/?paipv=0&#038;eav=AfbmULXoILiFDZ2XBA3-yagBakQgj9EZUB7HBqT6r-BjseC1G32XVRHVlypvAVsX62w&#038;_rdr" target="_blank">
-						<span class="elementor-screen-only">Facebook</span>
-                                                            <i class="fab fa-facebook"></i> </a>
-                                                            </span>
-                                                        </div> -->
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
+                <!-- Values Section -->
+                <section class="section-padding values-section">
+                    <div class="container-custom">
+                        <div class="values-grid">
+                            <div class="value-card">
+                                <i class="fas fa-shield-alt"></i>
+                                <h3>Full Insurance</h3>
+                                <p>Rest easy knowing we are fully insured and bonded. We prioritize the safety of your
+                                    property above all else.</p>
+                            </div>
+                            <div class="value-card">
+                                <i class="fas fa-medal"></i>
+                                <h3>Quality Guarantee</h3>
+                                <p>We don't leave until you are 100% satisfied with the results. Excellence is the only
+                                    standard we know.</p>
+                            </div>
+                            <div class="value-card">
+                                <i class="fas fa-leaf"></i>
+                                <h3>Eco-Friendly</h3>
+                                <p>We use biodegradable, landscaping-safe detergents that protect your plants while
+                                    eliminating mold and grime.</p>
                             </div>
                         </div>
                     </div>
                 </section>
+
+                <!-- CTA Section -->
+                <section class="container-custom">
+                    <div class="cta-section">
+                        <h2>Ready to make your property look new again?</h2>
+                        <p>Contact us today for a completely free, no-obligation estimate for any of our services.</p>
+                        <a href="/contact-us/" class="cta-btn">Get Your Free Estimate</a>
+                    </div>
+                </section>
+
+                <div style="margin-bottom: 80px;"></div>
+
             </div>
-
         </div>
     </div>
 
@@ -2622,7 +1900,8 @@ evan@pressurewashny.net">
                                                                 style="color: #ffffff">or <span
                                                                     style="color: #389fca">(315) 750 5464</span>
                                                                 <span style="color: #00ccff"> </span>
-                                                            </span>We are looking forward to working with you!</p>
+                                                            </span>We are looking forward to working with you!
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
